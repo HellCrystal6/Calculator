@@ -60,10 +60,3 @@ if calctype == "normal":
 
 if calctype == "expressions":
     expressions()
-########################################################
-# Enter an expression: 10*20 or 1880+2076 or 1000-55050
-########################################################
-# Enter a string: Nonu is coding!
-# Enter position: 3
-# Character at 3 is: u
-########################################################
