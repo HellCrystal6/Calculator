@@ -24,21 +24,17 @@ def calc():
             firstnum = int(input("What is your first number?: "))
             secondnum = int(input("What is your second number?: "))
             symbol = input("Would you like to multiply or divide or add or subtract?: ")
-            multiply = "*"
-            divide = "/"
-            add = "+"
-            subtract = "-"
 
-            if symbol == multiply:
+            if symbol == "multiply":
                 print("The answer is: " + str(firstnum * secondnum))
 
-            if symbol == divide:
+            if symbol == "divide":
                 print("The answer is: " + str(firstnum / secondnum))
-    
-            if symbol == add:
+        
+            if symbol == "add":
                 print("The answer is: " + str(firstnum + secondnum))
-    
-            if symbol == subtract:
+        
+            if symbol == "subtract":
                 print("The answer is: " + str(firstnum - secondnum))
 
     except KeyboardInterrupt:
