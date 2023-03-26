@@ -48,15 +48,8 @@ def calc():
 print("What type of calculator would you like to use?")
 calctype = input('''1. Expressions
 2. Normal (type Expressions or Normal): ''')
-
-if calctype == "Normal":
+ 
+if calctype in ["Normal", "normal"]:
     calc()
-
-if calctype == "Expressions":
-    expressions()
-    
-if calctype == "normal":
-    calc()
-
-if calctype == "expressions":
+elif calctype in ["Expressions", "expressions"]:
     expressions()
